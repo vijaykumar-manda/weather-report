@@ -1,0 +1,55 @@
+/* Common styles for all screen sizes */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.center-container {
+  margin-top: 15px;
+}
+
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+
+input {
+  padding: 15px;
+  width: 500px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.suggestions {
+  text-align: left;
+  background-color: #f0f0f0; /* Light gray color for suggestions background */
+  position: absolute;
+  width: 100%;
+  max-height: 150px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+}
+
+.suggestion {
+  height: 20px;
+  padding: 10px;
+  cursor: pointer;
+  color: #333333; /* Dark gray text color */
+}
+
+.suggestion:hover {
+  background-color: #e0e0e0; /* Slightly darker gray for hover effect */
+}
+
+/* Media query for smaller screens (mobile) */
+@media (max-width: 768px) {
+  input {
+    font-size: 14px;
+  }
+
+  .suggestions {
+    max-height: 200px;
+  }
+}
