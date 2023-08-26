@@ -28,7 +28,7 @@ public class SuggestionService {
 
         // Set headers with the RapidAPI key
         HttpHeaders headers = new HttpHeaders();
-        headers.set("X-RapidAPI-Key", "a1a2a6f47cmsh095b9abc7dd2d9ap131378jsn5b2b4b8f4586");
+        headers.set("X-RapidAPI-Key", "YOUR_API_KEY");
 
         ResponseEntity<GeoDBResponse> responseEntity = restTemplate.exchange(
             apiUrl,
