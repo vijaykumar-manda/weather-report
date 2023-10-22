@@ -1,4 +1,4 @@
-Project Name: Weather Report Application
+#Project Name: Weather Report Application
 
 Description:
 The Weather Report Application is a web-based platform that offers real-time weather information and location details to users. This project effectively combines frontend and backend technologies, as well as external APIs, to provide a seamless and informative weather forecasting experience. Here are the key components and details of the project:
